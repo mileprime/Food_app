@@ -1,724 +1,195 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<header>
-    <section>
-        <div>
-            <div>
-                <img src="" alt="Hanki"/>
-            </div>
-        <div></div>
-        <div>
-            <input type="textbox" placeholder="Sakura Blossom 54"/>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./index.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+
+      <div class="user-nav">
+        <div class="business-btn">
+          <img src="./images/bus-icon.svg" alt="business icon" />
+          <p>Start your business</p>
         </div>
-        <button>
-            <img src="" alt="btn"/>
-            <p>150.00</p>
+        <button class="main-btn">
+          <img src="./images/account-icon.svg" alt="account icon" />
+          <p>Account</p>
         </button>
+      </div>
+    </header>
+
+    <section class="hearo">
+      <!-- Text Section -->
+      <div>
+        <span class="hearo-title">Are You Hungry?</span>
+        <p class="hearo-text">
+          Order Your Favorite Food From Restaurants and shops
+        </p>
+        <div class="search-container">
+          <input class="search-input" type="text" placeholder="Enter Address" />
+          <button class="main-btn">Search</button>
         </div>
-        <div>
-            <div>
-                <img src="" alt="avt"/>
-            </div>
-            <div>
-                <select id="dropdown">
-                    <option value="option 1"></option>
-                    <option value="option 2"></option>
-                </select>
-            </div>
-        </div>
+      </div>
+      <!-- Image Section -->
+      <div>
+        <img src="./images/image.png" />
+      </div>
     </section>
-    <section>
-        <!-- Categories  -->
+    <section class="center">
+      <section class="steps-info">
         <div>
-            <div>
-                <img src="" alt="Fast Food"/>
-            </div>
-            <div>
-                <p>Fast Food</p>
-            </div>
-        </div>
-        <div>
-            <div>
-                <img src="" alt="Kebab"/>
-            </div>
-            <div>
-                <p>Kebab</p>
-            </div>
-        </div>
-        <div>
-            <div>
-                <img src="" alt="Italian"/>
-            </div>
-            <div>
-                <p>Indian</p>
-            </div>
-        </div>
-        <div>
-            <div>
-                <img src="" alt="Sea Food"/>
-            </div>
-            <div>
-                <p>Sea Food</p>
-            </div>
-        </div>
-        <div>
-            <div>
-                <img src="" alt="Vegan"/>
-            </div>
-            <div>
-                <p>Vegan</p>
-            </div>
-        </div>
-        <div>
-            <div>
-                <img src="" alt="Udon"/>
-            </div>
-            <div>
-                <p>Udon</p>
-            </div>
-        </div>
-        <div>
-            <div>
-                <img src="" alt="Tempura"/>
-            </div>
-            <div>
-                <p>Donburi</p>
-            </div>
-        </div>
-        <div>
-            <select id="dropdown">
-                <option value="option 1">Browse More Options</option>
-                <option value="option 2"></option>
-            </select>          
-        </div>
-    </section>
-    
-</header>
-
-<body>
-    <section>
-        <div>
-            <p>Filter</p>
-        </div>
-    <div>
-        <div>
-            <p>Search By</p>
-        </div>
-        <div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                    <p>Special Offers</p>
-                    <div>
-                        <p>56 Places</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                    <p>Free Delivery</p>
-                    <div>
-                        <p>408 Places</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                    <p>Top Sellers</p>
-                    <div>
-                        <p>Open Now</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                    <p>PickUp</p>
-                    <div>
-                        <p>350 places</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <hr>
-
-    <div>
-        <div>
-            <p>Sort By</p>
-        </div>
-        <div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                    <p>Nearest First</p>
-                </div>
-            </div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                    <p>Best Match</p>              
-                </div>
-            </div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                    <p>Customer Rating</p>
-                </div>
-            </div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                    <p>Delivery Fee</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <hr>
-
-    <div>
-        <div>
-            <p>Ratings</p>
-        </div>
-        <div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                </div>
-            </div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                </div>
-            </div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                </div>
-            </div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                   <img src="" alt="star">
-                   <img src="" alt="star">
-                </div>
-            </div>
-            <div>
-                <input type="checkbox" />
-                <div>
-                   <img src="" alt="star">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <span>2840</span>
-            <p>Places To Order</p>
-        </div>
-        <div>
-
-        </div>
-            <div>
-                <input type="search" placeholder="Search place or items"/>
-            </div>
-        </div>
-    </div>
-<div>
-        <div>
-            <div>
-                <div>
-                    <div>
-                        <div><img src="" alt="btn"></div>
-                    </div>
-                </div>
-                <div>
-                    <img src="" alt="hotpizza"/>
-                </div>
-            </div>
-            <div>
-            <div>
-                <div>
-                    <p>Sushi Express</p>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <div>
-                                <img src="" alt="star"/>                             
-                            </div>
-                            <div>
-                                <p>4.8</p>
-                            </div> 
-                            <div>.</div> 
-                            <div>
-                                <p>1024+ reviews</p>
-                            </div>            
-                        </div>
-                    </div>
-                    <div>
-                        <p>Sushi, Sea food</p>
-                        <div>
-                            <input type="button" value="Free Delivery" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-        </div>
-       
-</div>
-<div>
-    <div>
-        <div>
-            <div>
-                <div>
-                    <div><img src="" alt="btn"></div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="nandos"/>
-            </div>
-        </div>
-        <div>
-        <div>
-            <div>
-                <p>Nando's</p>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <img src="" alt="star"/>                             
-                        </div>
-                        <div>
-                            <p>4.9</p>
-                        </div> 
-                        <div>.</div> 
-                        <div>
-                            <p>512+ reviews</p>
-                        </div>            
-                    </div>
-                </div>
-                <div>
-                    <p>Chicken, French fries</p>
-                    <div>
-                        <input type="button" value="Delivery in 20 mins" />
-                    </div>
-                </div>
-            </div>
-        </div>
+          <img src="./images/how-it-works.png" alt="food" />
         </div>
 
-    </div>
-   
-</div>
-<div>
-    <div>
-        <div>
+        <section class="text-image">
+          <div>
+            <span class="steps-head">How It Works</span>
             <div>
+              <!-- Item div -->
+              <div class="step-item">
+                <div class="step-num">01</div>
                 <div>
-                    <div><img src="" alt="btn"></div>
+                  <p class="step-title">Enter Your Location</p>
+                  <p class="step-doc">
+                    We'll Show you stores and restaurants nearby you can order
+                    from
+                  </p>
                 </div>
-            </div>
-            <div>
-                <img src="" alt="hotpizza"/>
-            </div>
-        </div>
-        <div>
-        <div>
-            <div>
-                <p>Sushi Tei</p>
-            </div>
-            <div>
+              </div>
+              <!-- Item div -->
+              <!-- Item div -->
+              <div class="step-item">
+                <div class="step-num">02</div>
                 <div>
-                    <div>
-                        <div>
-                            <img src="" alt="star"/>                             
-                        </div>
-                        <div>
-                            <p>4.7</p>
-                        </div> 
-                        <div>.</div> 
-                        <div>
-                            <p>3577+ reviews</p>
-                        </div>            
-                    </div>
+                  <p class="step-title">Find What You Want</p>
+                  <p class="step-doc">
+                    Search for items or dishes, businesses or cuisines.
+                  </p>
                 </div>
+              </div>
+              <!-- Item div -->
+              <!-- Item div -->
+              <div class="step-item">
+                <div class="step-num">03</div>
                 <div>
-                    <p>Sushi, Sea food</p>
-                    <div>
-                        <input type="button" value="Free Delivery" />
-                    </div>
+                  <p class="step-title">Order For Delivery</p>
+                  <p class="step-doc">
+                    We'll update you on your order's progress.
+                  </p>
                 </div>
+              </div>
             </div>
-        </div>
-        </div>
-
-    </div>
-   
-</div>
-<div>
-    <div>
-        <div>
-            <div>
-                <div>
-                    <div><img src="" alt="btn"></div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="Domino's"/>
-            </div>
-        </div>
-        <div>
-        <div>
-            <div>
-                <p>Domino's Pizza</p>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <img src="" alt="star"/>                             
-                        </div>
-                        <div>
-                            <p>4.5</p>
-                        </div> 
-                        <div>.</div> 
-                        <div>
-                            <p>547+ reviews</p>
-                        </div>            
-                    </div>
-                </div>
-                <div>
-                    <p>Pizza</p>
-                    <div>
-                        <input type="button" value="Delivery in 20 mins" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-    </div>
-   
-</div>
-<div>
-    <div>
-        <div>
-            <div>
-                <div>
-                    <div><img src="" alt="btn"></div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="chipotle mexican"/>
-            </div>
-        </div>
-        <div>
-        <div>
-            <div>
-                <p>Chipotle Mexican Grill</p>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <img src="" alt="star"/>                             
-                        </div>
-                        <div>
-                            <p>4.7</p>
-                        </div> 
-                        <div>.</div> 
-                        <div>
-                            <p>1557+ reviews</p>
-                        </div>            
-                    </div>
-                </div>
-                <div>
-                    <p>Mexican, Spicy</p>
-                    <div>
-                        <input type="button" value="Free Delivery" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-    </div>
-   
-</div>
-<div>
-    <div>
-        <div>
-            <div>
-                <div>
-                    <div><img src="" alt="btn"></div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="pasta"/>
-            </div>
-        </div>
-        <div>
-        <div>
-            <div>
-                <p>Olive Garden</p>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <img src="" alt="star"/>                             
-                        </div>
-                        <div>
-                            <p>4.6</p>
-                        </div> 
-                        <div>.</div> 
-                        <div>
-                            <p>878+ reviews</p>
-                        </div>            
-                    </div>
-                </div>
-                <div>
-                    <p>Pasta, Chaomin</p>
-                    <div>
-                        <input type="button" value="Delivery in 20 mins" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-    </div>
-   
-</div>
-<div>
-    <div>
-        <div>
-            <div>
-                <div>
-                    <div><img src="" alt="btn"></div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="chicken"/>
-            </div>
-        </div>
-        <div>
-        <div>
-            <div>
-                <p>Los Pollos Hermanos</p>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <img src="" alt="star"/>                             
-                        </div>
-                        <div>
-                            <p>4.3</p>
-                        </div> 
-                        <div>.</div> 
-                        <div>
-                            <p>1557+ reviews</p>
-                        </div>            
-                    </div>
-                </div>
-                <div>
-                    <p>Chicken, French Fries</p>
-                    <div>
-                        <input type="button" value="Delivery in 20 mins" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-    </div>
-   
-</div>
-<div>
-    <div>
-        <div>
-            <div>
-                <div>
-                    <div><img src="" alt="btn"></div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="shawarma"/>
-            </div>
-        </div>
-        <div>
-        <div>
-            <div>
-                <p>Shawarma</p>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <img src="" alt="star"/>                             
-                        </div>
-                        <div>
-                            <p>4.9</p>
-                        </div> 
-                        <div>.</div> 
-                        <div>
-                            <p>11257+ reviews</p>
-                        </div>            
-                    </div>
-                </div>
-                <div>
-                    <p>Shawarma, kebab, Turkish</p>
-                    <div>
-                        <input type="button" value="Delivery in 20 mins" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-    </div>
-   
-</div>
+          </div>
+          <div class="side-image">
+            <img src="./images/macrona.png" alt="food" />
+          </div>
+        </section>
+      </section>
     </section>
 
-<section>
-    <div>
-       <div>
-        <p>Download Our Mobile App</p>
+    <section class="app-section">
+      <div>
         <div>
-            And order food more easily
+          <p class="app-download">Download Our Mobile App</p>
+          <p class="app-text">And order food easily</p>
         </div>
-        <div>
-            <div>
-                <input type="button" value="Apple Store"/>
-            </div>
-            <div>
-                <input type="button" value="Google Play"/>
-            </div>
+        <div class="btn-app-container">
+          <button class="btn-app btn-app-dark">
+            <img src="./apple-icon.svg" />
+            <p>Apple Store</p>
+          </button>
+          <button class="btn-app">
+            <img src="./google-icon.svg" />
+            <p>Google Play</p>
+          </button>
         </div>
-        <p>Or Login or Create to start order</p>
-       </div> 
-    <div>
-        <div>
-            <img src="" alt="HomeApp"/>
-        </div>
-        <div>
-            <img src="" alt="RestaurantApp"/>
-        </div>
-       </div>
-   </section>
-    </div>
-     
-</body>
 
-<footer>
-    <section>
-        <div>
-            <div>
-                <div>
-                    <div>
-                        <img src="" alt="Logo"/>
-                    </div>
-                    <div>
-                        <p>Order Your Favorite Food From Restaurants and Shops</p>
-                    </div>
-                </div>
-                    <div>
-                <div>
-                    <img src="" alt="Apple Store"/>
-                </div>
-                <div>
-                    <img src="" alt="Google Play"/>
-                </div>
-                    <div>
-            </div>
+        <p class="app-text">Or Login or Create an Account to start order</p>
+      </div>
 
-            <div>
-                
-                <p>Foods</p>
-                <div>
-                    <ul>
-                        <li>Food</li>
-                        <li>Pizza</li>
-                        <li>Chinese</li>
-                        <li>Vegan</li>
-                        <li>Sushi</li>
-                        <li>Indian</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>Doner</li>
-                        <li>Burgers</li>
-                        <li>Ice cream</li>
-                        <li>Asian</li>
-                        <li>Groceries</li>
-                        <li>Order more food...</li>
-                    </ul>
-                </div>
-                <p>Quick Links</p>
-                <div>
-                    <ul>
-                        <li>Customer Service</li>
-                        <li>Recommend a business</li>
-                        <li>List your business</li>
-                        <li>Become an affiliate</li>
-                        <li>Become a courier</li>
-                        <li>Jobs</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>Points</li>
-                        <li>Terms of use</li>
-                        <li>Privacy statement</li>
-                        <li>Colophon</li>
-                        <li>Cookie statement</li>
-                        <li>Newsroom</li>
-                    </ul>
-                </div>
-                
-            </div>
-        </div>
-        <div>
-            <div>
-                <p>© Hanki By TeachMeCode Institute 2024</p>
-            </div>
-            <div>
-                <img src="" alt="twt"/>
-                <img src="" alt="X"/>
-                <img src="" alt="IG"/>
-                <img src="" alt="Discord"/>
-            </div>
-        </div>
+      <div class="image-container">
+        <img src="./app-image.png" alt="Mobile App Display" />
+      </div>
     </section>
-
-</footer>
+    <footer>
+      <section>
+        <img src="./images/logo.svg" alt="" />
+        <p class="footer-text">
+          Order Your Favorite Food From Restaurants and shops
+        </p>
+        <div class="btn-app-container">
+          <button class="btn-app btn-app-dark">
+            <img src="./apple-icon.svg" />
+            <p>Apple Store</p>
+          </button>
+          <button class="btn-app">
+            <img src="./google-icon.svg" />
+            <p>Google Play</p>
+          </button>
+        </div>
+      </section>
+      <section class="footer-list">
+        <div class="list-head-footer">Foods</div>
+        <div class="ul-list">
+          <ul>
+            <li>Food</li>
+            <li>Pizza</li>
+            <li>Chinese</li>
+            <li>Vegan</li>
+            <li>Sushi</li>
+            <li>Indian</li>
+          </ul>
+          <ul>
+            <li>Doner</li>
+            <li>Burgers</li>
+            <li>Ice Cream</li>
+            <li>Asian</li>
+            <li>Groceries</li>
+            <li>Order more food</li>
+          </ul>
+        </div>
+      </section>
+      <section class="footer-list">
+        <div class="list-head-footer">Quick Links</div>
+        <div class="ul-list">
+          <ul>
+            <li>Customer Service</li>
+            <li>Recommend a business</li>
+            <li>List Your Business</li>
+            <li>Become an affiliate</li>
+            <li>Become a courier</li>
+            <li>Jobs</li>
+          </ul>
+          <ul>
+            <li>Points</li>
+            <li>Terms of use</li>
+            <li>Privacy Statement</li>
+            <li>Colophon</li>
+            <li>Cookie statement</li>
+            <li>Newsroom</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <section class="copy-right">
+      <div class="copy-right-text">
+        <p>Hanki By TeachMeCode Institute 2024</p>
+      </div>
+      <div>
+        <img src="./facebook.svg" alt="facebook-icon" />
+        <img src="./twitter.svg" />
+        <img src="./instagram.svg" />
+        <img src="./tiktok.svg" />
+      </div>
+    </section>
+  </body>
 </html>

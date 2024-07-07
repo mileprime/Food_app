@@ -1,0 +1,35 @@
+.parent {
+    display: grid;
+    height:200px;
+    grid-template-areas:
+    "side header" "side main" ;
+}
+
+
+.header {
+    grid-area: header;
+    background-color: purple;
+}
+
+.main {
+    grid-area: main;
+    background-color: green;
+}
+.side {
+    grid-area: side;
+    background-color: aqua;
+}
+a:active {
+    color: yellow;
+}
+
+.text-input:focus {
+    outline:none;
+    border: 3px solid red;
+}
+li:first-child {
+    color:yellow;
+}
+li:nth-child(2) {
+    color: red;
+}
