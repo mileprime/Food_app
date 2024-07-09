@@ -236,25 +236,63 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 128px 24px;
+  }
+  .app-download {
+    width: auto;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .app-text {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .btn-app-container {
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+  }
+  .footer-text {
+    width: auto;
+    text-align: center;
+    margin-top: 24px;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+  }
+  .ul-list {
+    flex-direction: column;
+    gap: 40px;
   }
 }
-@media (min-width: 320px) {
-  /*smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-}
-@media (min-width: 480px) {
-  /* smartphones, Android phones, landscape iPhone */
-}
-@media (min-width: 600px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-}
-@media (min-width: 801px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-@media (min-width: 1025px) {
-  /* big landscape tablets, laptops, and desktops */
-}
-@media (min-width: 1281px) {
-  /* hi-res laptops and desktops */
+
+@media (max-width: 767px) {
+  .hearo {
+    flex-direction: column;
+    padding: 32px;
+  }
+  .hearo-text {
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .search-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .search-input {
+    padding: 16px;
+  }
+  .copy-right {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  .copy-right-text {
+    line-height: 48px;
+  }
 }
 
 .copy-right {

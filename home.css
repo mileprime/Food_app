@@ -407,20 +407,191 @@ footer {
   line-height: 40px;
 }
 
+
 @media only screen and (max-width: 1000px) {
- 
-  .app-section {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* .app-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    } */
+  
+    nav {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 1200px) {
+  .main-layout {
+    padding: 40px 100px;
   }
 }
 
-@media only screen and (max-width: 1000px) {
-  nav {
-    flex-direction: column-reverse;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+@media only screen and (max-width: 1024px) {
+  .main-layout {
+    padding: 30px 60px;
+    flex-direction: column;
+  }
+  .main-layout aside {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .main-layout {
+    padding: 20px;
+  }
+  .main-layout section {
+    width: 100%;
+  }
+  .nav-item {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .input-container {
+    width: 100%;
+    max-width: 300px;
+  }
+  .food-dish {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-layout {
+    padding: 10px;
+  }
+  .filter-text,
+  .filter {
+    font-size: 20px;
+  }
+  .filter-info,
+  .filter-info-text {
+    font-size: 14px;
+  }
+  .input-container input,
+  .search-container input {
+    padding: 12px;
+    font-size: 14px;
+  }
+  .food-dish p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .main-layout {
+    padding: 5px;
+  }
+  .filter-text,
+  .filter {
+    font-size: 18px;
+  }
+  .filter-info,
+  .filter-info-text {
+    font-size: 12px;
+  }
+  .input-container input,
+  .search-container input {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .food-dish p {
+    font-size: 10px;
+  }
+}
+
+/* Responsive styles for app section */
+@media only screen and (max-width: 768px) {
+  .app-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 40px 20px;
+    justify-content: center;
+  }
+  .app-section .image-container {
+    margin-bottom: 20px;
+  }
+  .app-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .btn-app-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .app-section {
+    padding: 20px;
+  }
+  .app-section .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .btn-app-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Responsive styles for footer */
+@media only screen and (max-width: 768px) {
+  footer {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .footer-list {
+    margin-top: 30px;
+  }
+  .ul-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  footer {
+    padding: 20px;
+  }
+  .footer-list {
+    margin-top: 20px;
+  }
+  .ul-list {
+    gap: 20px;
+  }
+  .ul-list ul {
+    text-align: center;
+  }
+}
+
+/* Media Queries for Header */
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 20px; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    padding: 10px; 
+  }
+}
+
+
+/* End of Media Queries */
