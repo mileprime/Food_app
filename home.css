@@ -280,7 +280,8 @@ header {
   flex-wrap: wrap; 
 }
 .card{
-  padding: 24px 24px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .image-container img {
